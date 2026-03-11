@@ -2,7 +2,7 @@ name: Remove secret from history
 on: workflow_dispatch
  
 jobs:
-  clean:
+ clean:
   runs-on: ubuntu-latest
   steps:
     - uses: actions/checkout@v3
